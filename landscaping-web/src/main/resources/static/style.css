@@ -19,6 +19,7 @@ body {
 }
 
 .brand {
+    text-decoration: none;
     padding-left: 10px;
     display: flex;
     align-items: center;
@@ -100,6 +101,7 @@ h1 {
 .quote {
     text-decoration:none;
     margin-top:1.5rem;
+    color: black;
     /* padding-top:4rem; */
     border:none;
     border-radius: 40px;
@@ -159,7 +161,12 @@ p {
 }
 
 .blockAlt {
-    background-color: lightgrey;
+    /* background-color: lightgray; */
+    background-color: #eef2f5;
+
+    /* background-color: #0f172a;
+    color: white; */
+
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -191,6 +198,9 @@ p {
 
 .card {
     /* cursor:pointer; */
+    text-decoration: none;
+    color: black;
+
     display:flex;
     align-items: flex-start;
     gap:1rem;
